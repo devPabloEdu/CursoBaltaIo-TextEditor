@@ -40,7 +40,7 @@ namespace TextEditor
               string text = file.ReadToEnd();  
               Console.WriteLine(text);
             }
-            Console.WriteLine(' ');
+            Console.WriteLine("");
             Console.ReadLine();
             Menu();
         }
