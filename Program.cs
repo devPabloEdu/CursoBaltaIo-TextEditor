@@ -57,7 +57,7 @@ namespace TextEditor
             {
                 file.Write(text);
             }
-            Console.WriteLine("ARQUIVO SALVO COM SUCESSO");
+            Console.WriteLine($"ARQUIVO SALVO COM SUCESSO NO CAMINHO : {path}");
             Menu();
         }
         }
