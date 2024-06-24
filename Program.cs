@@ -38,9 +38,15 @@ namespace TextEditor
             Console.WriteLine("------------------------");
             string text = "";
 
-            while(Console.ReadKey().Key != ConsoleKey.Escape){
-                
+            do {
+                text += Console.ReadLine();
+                text += Environment.NewLine;
+            }
+            while(Console.ReadKey().Key != ConsoleKey.Escape);
+
+            Console.Write(text);
+
             }
         }
-    }
 }
+
