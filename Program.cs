@@ -57,7 +57,8 @@ namespace TextEditor
             {
                 file.Write(text);
             }
-
+            Console.WriteLine("ARQUIVO SALVO COM SUCESSO");
+            Menu();
         }
         }
 }
