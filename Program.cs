@@ -24,6 +24,8 @@ namespace TextEditor
                 break;
                 case 2 : Editar();
                 break;
+                default : Menu();
+                break;
             }
         }
 
